@@ -21,3 +21,26 @@ export function rbg(r, g, b){
     let rgb = "rgb(" + r + "," + g + "," + b + ")";
 }
 
+
+
+export function strokeCircle (x,y,radius) {
+    context.beginPath();
+    context.arc(x, y, radius, 0, 2*Math.PI);
+    context.fill();
+    context.stroke();
+}
+
+export function fillAndStrokeCircle (x,y,radius) {
+    context.beginPath();
+    context.arc(x, y, radius, 0, 2*Math.PI);
+    context.fill();
+    context.stroke();
+}
+
+
+export function fillAndStrokeEllipse(x,y,rX, yX) {
+    context.beginPath();
+    context.arc(x, y, rX,yX, 0, 2*Math.PI);
+    context.fill();
+    context.stroke();
+}

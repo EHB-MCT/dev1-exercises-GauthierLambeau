@@ -14,8 +14,8 @@ function draw() {
 
 function drawHourGlass() {
     let i = 0;
-    while () {
-        Utils.drawLine(, , , );
+    while (i < 21) {
+        Utils.drawLines(50 + (i*15), 50, 350 - (i*15), 350);
         i++;
     }
 }
