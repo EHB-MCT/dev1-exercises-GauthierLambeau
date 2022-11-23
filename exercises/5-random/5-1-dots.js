@@ -10,7 +10,7 @@ drawDots();
 
 //function drawDots(){
     
-        //for(let i = 0; i < 10000; i++){
+        //for(let i = 0; i < 100000; i++){
         //let x = Math.random() * width;
         //let y = Math.random() * height;
         //let distance = Utils.calculateDistance(width / 2, height / 2, x, y);
@@ -19,12 +19,12 @@ drawDots();
         //}else{
             //context.fillStyle = "green";
        // }
-    //Utils.fillCircle(x,y,10); 
+    //Utils.fillCircle(x,y,2); 
 //}
 //}
 
 //function drawDots(){
-    //for(let i = 0; i < 10000; i++){
+    //for(let i = 0; i < 100000; i++){
       //  let x = Math.random() * width;
         //let y = Math.random() * height;
         //let distance = Utils.calculateDistance(width / 2, height / 2, x, y);
@@ -36,12 +36,12 @@ drawDots();
        // if( y > height/1.5){
             //context.fillStyle= "blue";
        // }
-    //Utils.fillCircle(x,y,10); 
+    //Utils.fillCircle(x,y,2); 
 //}
 //}
 
 //function drawDots(){
-    //for(let i = 0; i < 10000; i++){
+    //for(let i = 0; i < 100000; i++){
           //let x = Math.random() * width;
           //let y = Math.random() * height;
           //let distance = Utils.calculateDistance(width / 2, height / 2, x, y);
@@ -53,12 +53,12 @@ drawDots();
             //if(x > width/1.4){
                 //context.fillStyle = "yellow";
             //}
-          //Utils.fillCircle(x,y,10); 
+          //Utils.fillCircle(x,y,2); 
 //}
 //}
 
 //function drawDots(){
-   // for(let i = 0; i < 10000; i++){
+   // for(let i = 0; i < 100000; i++){
         //  let x = Math.random() * width;
         //  let y = Math.random() * height;
          // let distance = Utils.calculateDistance(width / 2, height / 2, x, y);
@@ -71,12 +71,12 @@ drawDots();
                // context.fillStyle = "white";
             //}
          
-          //Utils.fillCircle(x,y,10); 
+          //Utils.fillCircle(x,y,2); 
 //}
 //}
 
 //function drawDots(){
-    //for(let i = 0; i < 10000; i++){
+    //for(let i = 0; i < 100000; i++){
          // let x = Math.random() * width;
          // let y = Math.random() * height;
          // let distance = Utils.calculateDistance(width / 2, height / 2, x, y);
@@ -95,13 +95,13 @@ drawDots();
                 //context.fillStyle = "blue";
            //}
          
-         // Utils.fillCircle(x,y,10); 
+         // Utils.fillCircle(x,y,2); 
 //}
 //}
 
 function drawDots() {
 
-    for (let i = 0; i < 10000; i++) {
+    for (let i = 0; i < 100000; i++) {
         let x = Math.random() * width;
         let y = Math.random() * height;
         let distance = Utils.calculateDistance(width / 2, height / 2, x, y);
@@ -110,7 +110,7 @@ function drawDots() {
         } else {
             context.fillStyle = "red";
         }
-        Utils.fillCircle(x, y, 10);
+        Utils.fillCircle(x, y, 2);
     }
 
 

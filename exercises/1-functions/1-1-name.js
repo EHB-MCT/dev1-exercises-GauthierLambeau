@@ -8,6 +8,7 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 let context = canvas.getContext("2d");
 
+
 context.beginPath();
 context.lineWidth = 9;
 context.strokeStyle = 'red';
